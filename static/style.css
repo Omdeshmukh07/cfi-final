@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, #000428, #004e92);
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 120px;
+    background: rgba(0,0,0,0.7);
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ff4b2b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff1c00;
+}
+
+.alert-box {
+    margin-top: 15px;
+    padding: 10px;
+    background: red;
+    border-radius: 5px;
+    font-weight: bold;
+}
